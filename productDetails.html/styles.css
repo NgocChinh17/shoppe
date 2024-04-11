@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #ee4d2d;
+  /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+.Menu {
+  padding-top: 10px;
+  margin-left: 100px;
+}
+/*Menu1*/
+.menu1 {
+  display: inline-block;
+}
+.menu1 ul li {
+  display: inline-block;
+}
+.menu1 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+.menu1 span {
+  color: #cfc9c9;
+}
+.icon-fI {
+  display: inline-block;
+  color: white;
+}
+.fa-facebook {
+  padding-left: 5px;
+}
+.fa-instagram {
+  padding-left: 5px;
+}
+/*Menu2*/
+.menu2 {
+  float: right;
+  padding-right: 90px;
+}
+.menu2 ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+.menu2 ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+.menu2 span {
+  color: #cfc9c9;
+}
+/*logo*/
+.logo img {
+  width: 100px;
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+/*search*/
+.search {
+  display: inline-block;
+}
+.search input {
+  width: 800px;
+  height: 35px;
+  margin-left: 80px;
+}
+.search button {
+  width: 100px;
+  height: 37px;
+}
+/*cart*/
+.cart {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.cart a {
+  color: white;
+}
+/*list-bottom*/
+.list-bottom {
+  margin-left: 248px;
+}
+.list-bottom ul li {
+  display: inline-block;
+}
+.list-bottom ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0 10px;
+}
+/*main*/
+.mian {
+  margin-left: 100px;
+}
+.anh-chinh {
+  float: left;
+}
+.anh-chinh > img {
+  display: inline-block;
+  width: 400px;
+}
+.anh-chinh .slides > img {
+  margin-top: 16px;
+  width: 100px;
+}
+/*ben phai*/
+.ben-phai {
+  display: inline-block;
+  margin-top: 16px;
+  margin-left: 100px;
+}
+.fa-star {
+  color: red;
+}
+.gia {
+  margin-top: 16px;
+  font-weight: 600;
+  color: red;
+  font-size: 20px;
+}
+.Van-Chuyen {
+  display: inline-block;
+}
+.title-van-chuyen {
+  display: inline-block;
+}
+.title-van-chuyen .fa-solid {
+  margin-left: 30px;
+  margin-right: 16px;
+}
+.title-van-chuyen > p {
+  float: right;
+}
+.title-chuyen {
+  margin-left: 133px;
+}
+.title-chuyen .fa-solid {
+  display: inline;
+}
+.title-chuyen > p {
+  display: inline-block;
+}
+.loai {
+  display: inline-block;
+  margin-right: 48px;
+}
+.phanloai > button {
+  width: 60px;
+  background-color: white;
+}
+.soluong {
+  margin-top: 16px;
+}
+.soluong > p {
+  display: inline-block;
+  margin-right: 48px;
+}
+.handleMua {
+  display: inline-block;
+  margin-top: 20px;
+}
+.handleMua .them {
+  display: inline-block;
+  margin-right: 20px;
+}
+.handleMua .mua {
+  float: right;
+}
+.handleMua .them > a > button {
+  width: 150px !important;
+  height: 50px !important;
+  background-color: wheat;
+  color: red;
+}
+.handleMua .mua > a > button {
+  width: 150px !important;
+  height: 50px !important;
+  background-color: rgb(210, 10, 10);
+  color: white;
+}
+.mo-ta {
+  font-size: 14px;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+.mo-ta .cuoi {
+  margin-right: 200px;
+  margin-bottom: 300px;
+}
+
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: -230px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-footer {
+  text-align: center;
+  margin-top: 20px;
+}

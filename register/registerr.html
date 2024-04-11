@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registerr.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="main">
+        <form action="" method="POST" class="form" id="form-1">
+          <h3 class="heading">Đăng Ký</h3>
+      
+          <div class="spacer"></div>
+      
+          <div class="form-group">
+            <label for="fullname" class="form-label">Tên đầy đủ</label>
+            <input id="fullname" name="fullname" type="text" placeholder="VD: Phan Ngọc Chinh" class="form-control">
+            <span class="form-message"></span>
+          </div>
+      
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input id="email" name="email" type="text" placeholder="VD: abc@abc.com" class="form-control">
+            <span class="form-message"></span>
+          </div>
+      
+          <div class="form-group">
+            <label for="password" class="form-label">Mật khẩu</label>
+            <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+            <span class="form-message"></span>
+          </div>
+      
+          <div class="form-group">
+            <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+            <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+            <span class="form-message"></span>
+          </div>
+      
+          <button class="form-submit">
+            <a href="../login/login.html">Đăng ký</a>
+          </button>
+        </form>
+      </div>
+</body>
+<script src="registerr.js"></script>
+<script>
+    // sẽ sử dụng lại trong tương lai
+    f8({
+        form : '#form-1',
+        errorSelector : '.form-message',
+        rules : [
+            f8.isRequired('#fullname', ' Vui lòng nhập đầy đủ họ và tên'),
+            f8.isEmail('#email'),
+            f8.minLength('#password', 8),
+            f8.isRequired('#password_confirmation', 'vui lòng nhập trường này'),
+            f8.repeatpass('#password_confirmation', function () {
+              return document.querySelector('#form-1 #password').value;
+            }, ' Mật khẩu nhập lại không chính xác!'),
+        ],
+        onsubmit : function (data) {
+          console.log(data);
+        },
+    });
+</script>
+</html>

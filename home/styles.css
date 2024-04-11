@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #ee4d2d;
+  /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+.Menu {
+  padding-top: 10px;
+  margin-left: 100px;
+}
+/*Menu1*/
+.menu1 {
+  display: inline-block;
+}
+.menu1 ul li {
+  display: inline-block;
+}
+.menu1 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+.menu1 span {
+  color: #cfc9c9;
+}
+.icon-fI {
+  display: inline-block;
+  color: white;
+}
+.fa-facebook {
+  padding-left: 5px;
+}
+.fa-instagram {
+  padding-left: 5px;
+}
+/*Menu2*/
+.menu2 {
+  float: right;
+  padding-right: 90px;
+}
+.menu2 ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+.menu2 ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+.menu2 span {
+  color: #cfc9c9;
+}
+/*logo*/
+.logo img {
+  width: 100px;
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+/*search*/
+.search {
+  display: inline-block;
+}
+.search input {
+  width: 800px;
+  height: 35px;
+  margin-left: 80px;
+}
+.search button {
+  width: 100px;
+  height: 37px;
+}
+/*cart*/
+.cart {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.cart a {
+  color: white;
+}
+/*list-bottom*/
+.list-bottom {
+  margin-left: 248px;
+}
+.list-bottom ul li {
+  display: inline-block;
+}
+.list-bottom ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+/*main*/
+.slide {
+  display: inline-block;
+}
+#carouselExampleIndicators {
+  width: 800px;
+  margin-left: 100px;
+}
+.item {
+  float: right;
+  margin-right: 50px;
+}
+.item img {
+  width: 540px;
+  height: 117px;
+}
+.item9 {
+  padding-top: 5px;
+}
+/*list-deal*/
+.list-deal {
+  margin-left: 100px;
+  margin-right: 50px;
+  padding-top: 10px;
+  background-color: rgb(249 249 249);
+}
+.list-deal ul li {
+  display: inline-block;
+  padding: 0 25px;
+  padding-left: 40px;
+}
+.list-deal ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+}
+.list-deal img {
+  width: 60px;
+}
+
+/*deal-hot*/
+.phai {
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.phai h3 {
+  display: inline-block;
+  font-size: 20px;
+}
+.phai span {
+  padding-left: 1078px;
+}
+.phai span a {
+  text-decoration: none;
+}
+.card {
+  display: inline-block;
+}
+.card-text {
+  padding-left: 70px;
+}
+/*flash-sale*/
+.flash-sale {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+.flash-sale .Sale h5 {
+  font-size: 20px;
+  display: inline-block;
+}
+.flash-sale .Sale > p {
+  float: right;
+  margin-right: 50px;
+}
+.abum-sale {
+  padding-top: 20px;
+  padding-left: 70px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+.abum-sale > p {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+.abum-sale > input {
+  border-radius: 10px;
+  width: 160px;
+  margin-left: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.abum-sale > a > img {
+  width: 170px;
+}
+.abum-sale > img:first-child {
+  margin-left: 10px;
+}
+/*up-shoppe*/
+.up-shoppe {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+.up-shoppe > img {
+  width: 1380px;
+}
+/*shope-mall*/
+.shoppe-mall {
+  margin-left: 100px;
+  display: inline-block;
+}
+.abum-mall {
+  display: inline-block;
+  max-width: 350px;
+}
+/*ben-phai*/
+.qua-phai {
+  float: right;
+  margin-top: 10px;
+}
+.list-qua {
+  display: inline-block;
+  margin-bottom: 300px;
+  margin-left: 30px;
+}
+.firstt {
+  float: right;
+  margin-top: 16px;
+}
+.firstt > span {
+  margin-left: 35px;
+}
+.firstt > img {
+  width: 100px;
+}
+.firstt > img:first-child {
+  margin-left: 38px;
+}
+#phan {
+  height: 100px;
+}
+/*qua-duoi*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: -230px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-footer {
+  text-align: center;
+  margin-top: 20px;
+}

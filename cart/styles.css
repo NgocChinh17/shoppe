@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #ee4d2d;
+  /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+.Menu {
+  padding-top: 10px;
+  margin-left: 100px;
+}
+/*Menu1*/
+.menu1 {
+  display: inline-block;
+}
+.menu1 ul li {
+  display: inline-block;
+}
+.menu1 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+.menu1 span {
+  color: #cfc9c9;
+}
+.icon-fI {
+  display: inline-block;
+  color: white;
+}
+.fa-facebook {
+  padding-left: 5px;
+}
+.fa-instagram {
+  padding-left: 5px;
+}
+/*Menu2*/
+.menu2 {
+  float: right;
+  padding-right: 90px;
+}
+.menu2 ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+.menu2 ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+.menu2 span {
+  color: #cfc9c9;
+}
+/*logo*/
+.logo img {
+  width: 100px;
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+/*search*/
+.search {
+  display: inline-block;
+}
+.search input {
+  width: 800px;
+  height: 35px;
+  margin-left: 80px;
+}
+.search button {
+  width: 100px;
+  height: 37px;
+}
+/*cart*/
+.cart {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.cart a {
+  color: white;
+}
+/*list-bottom*/
+.list-bottom {
+  margin-left: 248px;
+}
+.list-bottom ul li {
+  display: inline-block;
+}
+.list-bottom ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+/*main*/
+.topp {
+  display: inline-block;
+  margin-left: 100px;
+}
+.trai {
+  display: inline-block;
+  margin-right: 630px;
+}
+.trai > input {
+  display: inline-block;
+}
+.trai > p {
+  display: inline-block;
+}
+.menu {
+  display: inline-block;
+}
+.menu > p {
+  display: inline-block;
+  padding: 50px;
+  color: gray;
+  margin-top: -100px;
+}
+
+.line {
+  border-bottom: 1px solid rgb(174, 162, 162);
+  margin-left: 100px;
+  margin-right: 85px;
+  margin-top: -28px;
+}
+.sanpham > img {
+  width: 100px;
+  margin-left: 100px;
+  margin-top: 16px;
+  display: inline-block;
+}
+.sanpham > p {
+  display: inline-block;
+  margin-left: 20px;
+}
+.kk {
+  border-bottom: 1px solid rgb(174, 162, 162);
+  margin-left: 100px;
+  margin-right: 85px;
+  margin-top: 20px;
+}
+.voucher {
+  margin-top: 16px;
+  margin-left: 100px;
+}
+.fa-ticket {
+  font-size: 20px;
+  color: #ee4d2d;
+  display: inline-block;
+}
+.voucher > p {
+  display: inline-block;
+}
+.hh {
+  border-bottom: 1px solid rgb(174, 162, 162);
+  margin-left: 100px;
+  margin-right: 85px;
+}
+.hhh {
+  border-bottom: 1px solid rgb(174, 162, 162);
+  margin-left: 100px;
+  margin-right: 85px;
+}
+.xu {
+  display: inline-block;
+  margin-left: 1050px;
+  margin-top: 16px;
+}
+.xu > p {
+  display: inline-block;
+}
+.muahang {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 16px;
+}
+.muahang > input {
+  display: inline-block;
+}
+.muahang > p {
+  display: inline-block;
+}
+.muahang > button {
+  display: inline-block;
+  margin-left: 30px;
+  width: 127px;
+  height: 40px;
+  background-color: #ee4d2d;
+  color: white;
+  border: 0;
+}
+.cuoi {
+  margin-bottom: 270px;
+}
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: -230px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
